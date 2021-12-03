@@ -17,7 +17,7 @@ Only Laptop Clarksfield and Arrandale!!
 
 
 3) Create installation media as is described in [https://dortania.github.io/OpenCore-Install-Guide/installer-guide/](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/). 
-For ThinkPad X201 which doesn't support EFI boot you have to create a legacy setup described here [https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#legacy-setup](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#legacy-setup)
+For Arrandale which doesn't support EFI boot you have to create a legacy setup described here [https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#legacy-setup](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#legacy-setup)
 
 4) Mount EFI partition from installer media [https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#setting-up-opencore-s-efi-environment](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/mac-install.html#setting-up-opencore-s-efi-environment)
 
@@ -50,7 +50,7 @@ To load patched kext I use OpenCore Legacy Patcher dedicated for old Macs. Fortu
 2) Run OpenCore-Patcher.
     + select 4 (Change Model) and enter ```MacBookPro6,2```
     + select 3 (Post-Install Volume Patch)
-    + power off your ThinkPad
+    + power off
 3) Power on computer - graphics QE/CI acceleration should working now :) macOS on my ThinkPad X201 is running really fast and is pretty usable for web browsing, programming and other tasks :) 
 
 # Getting CPU Power Management (Intel SpeedStep) to work.
